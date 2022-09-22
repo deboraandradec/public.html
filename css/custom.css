@@ -1,0 +1,279 @@
+body, html {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+body #header {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  background-color: #12616b;
+  margin-bottom: 10px;
+  transition:ease-out 0.2s;
+}
+
+#header .navbar-collapse {
+  width: auto;
+  padding-left: 315px;
+  top: 0;
+}
+
+#header .img-fluid {
+    max-height: 50px;
+}
+
+.tamanho {
+  max-height: 70px;
+  min-height: 70px;
+}
+
+.img-footer {
+  max-height: 90px;
+  min-height: 90px;
+}
+
+#header .nav-link {
+  padding-left: 0;
+  padding-right: 0;
+  color: #fcfcfc;
+  border-bottom: solid 2px transparent;
+}
+
+#header .nav-link:hover{
+  border-bottom: solid 2px #fcfcfc;
+}
+
+body {
+  background-image: url("../imgs/fundologos.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #e0dddd;
+}
+
+
+.logo {
+  max-width: 600px !important;
+ 
+  
+}
+
+.itensCapa h1, p {
+  color: #00aaba;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.itensCapa h1 {
+  font-family: 'Viga', sans-serif;
+  font-weight: 600;
+  font-size: 6rem !important;
+}
+
+.itensCapa p {
+  font-family: 'Viga', sans-serif;
+  line-height: 1.6;
+  font-size: 1.5rem;
+  font-weight: lighter;
+ margin-top: 120px;
+ margin-right: 20px;
+}
+
+.itensCapa {
+  margin-top: 20%;
+  padding-bottom: 16%;
+}
+
+section .texto {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+ 
+}
+
+
+.pgsection {
+  padding-bottom: 30px;
+}
+
+.tltxt {
+  color: #fdfeff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+}
+
+.sobre
+ {
+  vertical-align: middle;
+}
+
+#sobre .img-sobre {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fdfeff;
+ 
+}
+
+
+
+/* gallery */
+
+.gallery .gallery-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1rem;
+  padding-top: 15px;
+  padding: 2rem 9%;
+  background: rgb(215,217,221);
+  background: linear-gradient(99deg, rgba(215,217,221,1) 43%, rgba(255,255,255,1) 71%);
+
+   
+}
+
+.gallery .gallery-container .box{
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.gallery .gallery-container .box img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.gallery .gallery-container .box:hover img{
+  transform: scale(1.1);
+}
+
+.gallery .gallery-container .box .icon{
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0; left: 0;
+  z-index: 10;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,.7);
+  display: none;
+}
+
+.gallery .gallery-container .box .icon i{
+  font-size: 6rem;
+  color: var(--white);
+}
+
+.gallery .gallery-container .box:hover .icon{
+  display: flex;
+}
+
+
+/* LOCAL */
+#local p{
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+
+#local h5{
+color: #fcfcfc;
+
+
+}
+
+
+.divLocal {
+  min-height: 500px;
+}
+
+/* //LOCAL */
+
+
+/* REALIZAÇÃO */
+#realizacao .img-fluid {
+    max-width: 250px;
+    height: auto;
+}
+
+#realizacao .IF {
+    max-width: 330px !important;
+    height: auto;
+    margin-top: -30px;
+    
+}
+
+#realizacao .FIERN {
+    max-width: 310px !important;
+    height: auto;
+    margin-top: 15px !important;
+    margin-bottom: 50PX;
+}
+
+
+
+#realizacao .CREA {
+    max-width: 310px;
+    height: auto;
+    margin-top: 45px;
+}
+
+/* REALIZAÇÃO */
+
+/* FOOTER */
+.bg-footer {
+    background-color: #12616b;
+    padding: 50px 0 30px;
+}
+.footer-heading {
+    letter-spacing: 2px;
+}
+
+.contato-itens{
+  align-content: right;
+}
+
+.contact-info {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.footerTxt{
+  text-align: left;
+}
+
+.footer-social-icon {
+    font-size: 15px;
+    height: 34px;
+    width: 34px;
+    line-height: 34px;
+    border-radius: 3px;
+    text-align: center;
+    display: inline-block;
+}
+
+.footer-alt {
+    color: #ffffff;
+}
+
+.footer-heading {
+    position: relative;
+    padding-bottom: 12px;
+}
+
+footer .col-lg-4 {
+  align-content: right;
+}
+
+.logoFooter {
+  max-width: 200px !important;
+}
+
+/* FOOTER */
+
+.ivisivel {
+  color: #fcfcfc;
+}
