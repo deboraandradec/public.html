@@ -1,6 +1,9 @@
 body, html {
   font-family: 'Roboto', sans-serif;
+  
 }
+
+
 
 
 
@@ -16,13 +19,11 @@ body #header {
 
 #header .navbar-collapse {
   width: auto;
-  padding-left: 315px;
+  padding-left: 200px;
   top: 0;
+  
 }
 
-#header .img-fluid {
-    max-height: 50px;
-}
 
 .tamanho {
   max-height: 70px;
@@ -46,12 +47,12 @@ body #header {
 }
 
 body {
-  background-image: url("../imgs/fundologos.png");
+  background-image: url("../imgs/fundobranco.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: #e0dddd;
+  background-color: #ece8e8;
 }
 
 
@@ -61,10 +62,16 @@ body {
   
 }
 
+.logofem{
+margin-top: 150px;
+
+
+
+}
 .itensCapa h1, p {
   color: #00aaba;
   text-align: center;
-  margin-top: 100px;
+
 }
 
 .itensCapa h1 {
@@ -78,12 +85,11 @@ body {
   line-height: 1.6;
   font-size: 1.5rem;
   font-weight: lighter;
- margin-top: 120px;
  margin-right: 20px;
 }
 
 .itensCapa {
-  margin-top: 20%;
+  margin-top: 10px;
   padding-bottom: 16%;
 }
 
@@ -105,6 +111,8 @@ section .texto {
   font-weight: 800;
 }
 
+
+
 .sobre
  {
   vertical-align: middle;
@@ -117,6 +125,26 @@ section .texto {
   background-color: #fdfeff;
  
 }
+
+
+
+/* subimiss */
+.Submissões
+ {
+  vertical-align: middle;
+}
+
+#Submissões .img-sobre {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fdfeff;
+  margin-top: 100px;
+ 
+}
+
+/* subimiss */
+
 
 
 
